@@ -1,0 +1,10 @@
+/* Background */
+body{background-image: url(img/fondo_dos.jpg); background-attachment: fixed; background-position: top center;}
+
+.red{color: red; font-weight: bold;}
+
+
+/* Test */
+.btn-primary{background-color: #D19117; border-color: #D19117;}
+.btn-link{color: #0E2F59;}
+/* .card{background-image: url(/img/fondo_dos.jpg); background-size: cover;} */

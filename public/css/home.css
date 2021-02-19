@@ -1,0 +1,209 @@
+/* --- HOME --- */
+/* Setting de logos home y footer */
+.logo_top_idcbis{display: none;}
+.logo_top_darcelulas_blanco{display: none;}
+.logo_top_darcelulas_azul{display: none;}
+.logo_bottom_idcbis_blanco{display: none;}
+.logo_bottom_idcbis_azul{display: none;}
+
+.fondo_uno{background: url('../img/home_fondo_1.jpg') #01204c; background-position: center center; background-size: cover; color: #FFF; position: absolute; z-index: -100;}
+.fondo_uno:after { content:'\A'; position: absolute; z-index: -99; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0,0,0,1); opacity:1; animation-name: a_fondo_uno; animation-duration: 1s; animation-fill-mode: forwards;}
+.fondo_uno .logo_darcelulas img{position: absolute; top: 30%; left: 50%; transform: translateX(-50%); animation-name: home_1_logo_darcelulas; animation-duration: 0.5s; animation-fill-mode: forwards;}
+.fondo_uno h1{position: absolute; top: 57%; height: 96px; width: 100%; opacity: 0; text-align: center; animation-name: home_1_tituloprincipal; animation-duration: 0.5s; animation-delay: 0.3s; animation-fill-mode: forwards; overflow: hidden;}
+.fondo_uno h1 .wrap{position: absolute; left: 0; right: 0; bottom: 0; height: 45px; overflow: hidden;}
+.fondo_uno h1 .wrap span{position: absolute; left: 0; right: 0; transition: .5s;}
+.fondo_uno h1 .wrap .CPH{bottom: 0;}
+.fondo_uno h1 .wrap .CFS{top: -55px; color: #C18928;}
+.fondo_uno h1 .wrap:hover .CPH{bottom: -55px;}
+.fondo_uno h1 .wrap:hover .CFS{top: 0px;}
+.fondo_uno .logo_top_idcbis{display: block;}
+.fondo_uno #nrow_left{display: none;}
+
+/* #home-content-1{background: url('../img/home_fondo_2.jpg') #010006; background-position: center center; background-size: cover; color: #FFF; position: absolute; z-index: -100;} */
+
+.fondo_dos{background: url('../img/home_fondo_2.jpg') #010006; background-position: center center; background-size: cover; color: #FFF; position: absolute; z-index: -100;}
+.fondo_dos:after { content:'\A'; position:absolute; z-index: -99; width:100%; height:100%; top:0; left:0; background-color: rgba(0,0,0,1); opacity:1; animation-name: a_fondo_dos; animation-duration: 1s; animation-fill-mode: forwards; }
+.fondo_dos h2{position: absolute; top: 34%; left: 50%; transform: translateX(-50%); animation-name: home_1_titulo; animation-duration: 0.5s; animation-fill-mode: forwards;}
+.fondo_dos p{position: absolute; top: 52%; width: 100%; opacity: 0; text-align: center; animation-name: home_1_importante_1; animation-duration: 0.5s; animation-delay: 0.3s; animation-fill-mode: forwards;}
+.fondo_dos .logo_top_darcelulas_blanco, .fondo_dos .logo_bottom_idcbis_blanco{display: block;}
+
+.fondo_tres{background: url('../img/home_fondo_3.jpg') #fbf0ec; background-position: center center; background-size: cover; color: #1E5389; position: absolute; z-index: -100;}
+.fondo_tres:after { content:'\A'; position:absolute; z-index: -99; width:100%; height:100%; top:0; left:0; background-color: rgba(0,0,0,1); opacity:1; animation-name: a_fondo_tres; animation-duration: 1s; animation-fill-mode: forwards; }
+.fondo_tres h2{position: absolute; top: 24%; width: 100%; color: #1E5389; animation-name: home_1_f3_titulo; animation-duration: 0.5s; animation-fill-mode: forwards;}
+.fondo_tres p{position: absolute; top: 48%; width: 100%; opacity: 0; color: #1A1919; animation-name: home_1_f3_importante_1; animation-duration: 0.5s; animation-delay: 0.3s; animation-fill-mode: forwards;}
+.fondo_tres nav a, .fondo_tres .text-scroll{color: #1E5389;}
+.fondo_tres .logo_top_darcelulas_azul, .fondo_tres .logo_bottom_idcbis_azul{display: block;}
+
+.fondo_cuatro{background: url('../img/home_fondo_4.jpg') #e9b98b; background-position: center center; background-size: cover; color: #1E5389; position: absolute; z-index: -100;}
+.fondo_cuatro:after { content:'\A'; position:absolute; z-index: -99; width:100%; height:100%; top:0; left:0; background-color: rgba(0,0,0,1); opacity:1; animation-name: a_fondo_cuatro; animation-duration: 1s; animation-fill-mode: forwards; }
+.fondo_cuatro h2{position: absolute; top: 24%; width: 100%; color: #1E5389; animation-name: home_1_f3_titulo; animation-duration: 0.5s; animation-fill-mode: forwards;}
+.fondo_cuatro .importante-1{position: absolute; top: 48%; width: 100%; opacity: 0; color: #1A1919; animation-name: home_1_f3_importante_1; animation-duration: 0.5s; animation-delay: 0.3s; animation-fill-mode: forwards;}
+.fondo_cuatro nav a, .fondo_cuatro .text-scroll{color: #1E5389;}
+.fondo_cuatro .logo_top_darcelulas_azul, .fondo_cuatro .logo_bottom_idcbis_azul{display: block;}
+
+.fondo_cinco{background: url('../img/home_fondo_5.jpg') #ffffff; background-position: center center; background-size: cover; color: #1E5389; position: absolute; z-index: -100;}
+.fondo_cinco:after { content:'\A'; position:absolute; z-index: -99; width:100%; height:100%; top:0; left:0; background-color: rgba(0,0,0,1); opacity:1; animation-name: a_fondo_cinco; animation-duration: 1s; animation-fill-mode: forwards; }
+.titulo-home-content-4{position: absolute; top: 18%; width: 100%; color: #1E5389; animation-name: home_1_f4_titulo; animation-duration: 0.5s; animation-fill-mode: forwards;}
+.tips-home-content-4{position: absolute; top: 42%; width: 100%; color: #211915;}
+.tips-home-content-4 .col:nth-child(1){margin-top: 35px; opacity: 0; animation-name: home-tips; animation-duration: 0.5s; animation-delay: 0.5s; animation-fill-mode: forwards;}
+.tips-home-content-4 .col:nth-child(2){margin-top: 35px; opacity: 0; animation-name: home-tips; animation-duration: 0.5s; animation-delay: 1s; animation-fill-mode: forwards;}
+.tips-home-content-4 .col:nth-child(3){margin-top: 35px; opacity: 0; animation-name: home-tips; animation-duration: 0.5s; animation-delay: 1.5s; animation-fill-mode: forwards;}
+.tips-home-content-4 .col:nth-child(1) .tip img{transform: rotate(25deg); animation-name: tip-img; animation-duration: 0.5s; animation-delay: 0.5s; animation-fill-mode: forwards;}
+.tips-home-content-4 .col:nth-child(2) .tip img{transform: rotate(25deg); animation-name: tip-img; animation-duration: 0.5s; animation-delay: 1s; animation-fill-mode: forwards;}
+.tips-home-content-4 .col:nth-child(3) .tip img{transform: rotate(25deg); animation-name: tip-img; animation-duration: 0.5s; animation-delay: 1.5s; animation-fill-mode: forwards;}
+.fondo_cinco nav a, .fondo_cinco .text-scroll{color: #1E5389;}
+.fondo_cinco .logo_top_darcelulas_azul, .fondo_cinco .logo_bottom_idcbis_azul{display: block;}
+
+.fondo_seis{background: url('../img/home_fondo_1.jpg') #01204c; background-position: center center; background-size: cover; color: #FFF; position: absolute; z-index: -100;}
+.fondo_seis:after { content:'\A'; position:absolute; z-index: -99; width:100%; height:100%; top:0; left:0; background-color: rgba(0,0,0,1); opacity:1; animation-name: a_fondo_seis; animation-duration: 1s; animation-fill-mode: forwards; }
+.fondo_seis .logo_darcelulas_footer img{margin-top: 30px; animation-name: logo_menu_footer; animation-duration: 0.5s; animation-fill-mode: forwards;}
+.fondo_seis .menu-footer{opacity: 0; animation-name: menu_footer; animation-duration: 0.8s; animation-delay: 0.5s; animation-fill-mode: forwards;}
+.fondo_seis .text-scroll, .fondo_seis #top_1{display: none;}
+.fondo_seis #top_2{display: flex;}
+.fondo_seis .logo_bottom_idcbis_blanco{display: block;}
+
+
+.home-circle-iluminacion-1{position: absolute; z-index: 2; top: 30%; left: 10%; opacity: 1; animation-name: iluminacion_uno; animation-duration: 1s; animation-fill-mode: forwards;}
+.home-circle-iluminacion-2{position: absolute; z-index: 2; top: 50%; left: 50%; opacity: 1; animation-name: iluminacion_uno; animation-duration: 2s; animation-fill-mode: forwards;}
+.home-circle-iluminacion-3{position: absolute; z-index: 2; top: 50%; left: 50%; opacity: 1; animation-name: iluminacion_uno; animation-duration: 3s; animation-fill-mode: forwards;}
+
+@media screen and (max-width: 1200px) {
+	.nav-link{padding: .5rem;}
+  nav a{font-size: 0.7rem;}
+}
+
+@keyframes a_fondo_uno {
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+@keyframes a_fondo_dos {
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+@keyframes a_fondo_tres {
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+
+@media screen and max-height: 768px()
+{
+	}@keyframes a_fondo_cuatro {
+
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+@keyframes a_fondo_cinco {
+  from {opacity:1;}
+
+	@media screen and ()
+{
+max-height: 768px	}  to {opacity:0;}
+
+}
+
+@keyframes a_fondo_seis {
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+@keyframes home_1_logo_darcelulas{
+  from {top: 30%;}
+  to {top: 14%;}
+}
+
+@keyframes home_1_tituloprincipal{
+  from {top: 57%; opacity: 0;}
+  to {top: 52%; opacity: 1;}
+}
+
+@keyframes home_1_titulo{
+  from {top: 34%;}
+  to {top: 29%;}
+}
+
+@keyframes home_1_importante_1{
+  from {top: 52%; opacity: 0;}
+  to {top: 47%; opacity: 1;}
+}
+
+@keyframes home_1_f3_titulo{
+  from {top: 24%;}
+  to {top: 19%;}
+}
+
+@keyframes home_1_f3_importante_1{
+  from {top: 48%; opacity: 0;}
+  to {top: 43%; opacity: 1;}
+}
+
+@keyframes home_1_f4_titulo{
+  from {top: 24%;}
+  to {top: 19%;}
+}
+
+@keyframes home-tips{
+  from{margin-top: 35px; opacity: 0;}
+  to{margin-top: 0px; opacity: 1;}
+}
+
+@keyframes tip-img {
+  from: {transform: rotate(25deg);}
+  to{transform: rotate(0deg);}
+}
+
+@keyframes iluminacion_uno{
+  0% {opacity: 1;}
+  33% {opacity: 0;}
+  66% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes logo_menu_footer {
+  from {margin-top: 30px;}
+  to{margin-top: 0px;}
+}
+
+@keyframes menu_footer {
+  from {opacity: 0;}
+  to{opacity: 1;}
+}
+
+@media screen and (min-aspect-ratio: 16/9) {
+	@keyframes home_1_f3_titulo{
+	  from {top: 24%;}
+	  to {top: 5%;}
+	}
+
+	@keyframes home_1_f3_importante_1{
+	  from {top: 48%; opacity: 0;}
+	  to {top: 29%; opacity: 1;}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.total_m{width: 100vw; height: 100vh;}
+	.fondo_uno{background: transparent}
+	#uno_home_m{background: url('../img/home_fondo_1.jpg') #01204c; background-position: center center; background-size: cover; color: #FFF;}
+	#dos_home_m{background: url('../img/home_fondo_2.jpg') #01204c; background-position: center center; background-size: cover; color: #FFF;}
+	#tres_home_m{background: url('../img/home_fondo_3.jpg') #01204c; background-position: center center; background-size: cover; color: #000;}
+	#tres_home_m h2{color: #1E5389;}
+	#cuatro_home_m{background: url('../img/home_fondo_4.jpg') #01204c; background-position: center center; background-size: cover; color: #000;}
+	#cuatro_home_m h2{color: #1E5389;}
+	#cinco_home_m{background: url('../img/home_fondo_5.jpg') #01204c; background-position: center center; background-size: cover; color: #000;}
+	#cinco_home_m h2{color: #1E5389;}
+	#footer_m{background: url('../img/home_fondo_1.jpg') #01204c; background-position: center center; background-size: cover; color: #FFF;}
+	#footer_m .leer_siguiente{display: inline-block; border: 1px solid #FFF; font-family: 'Roboto Slab', serif; font-size: 1.5rem; color: #FFF; padding: 0 18px; margin-top: 40px;}
+	#footer_m .leer_siguiente span{border-left: 1px solid #FFF; padding-left: 18px;}
+	#footer_m .leer_siguiente:hover{text-decoration: none; background-color: #C18928; color: #FFF;}
+}
+
+@media screen and (max-width: 768px) {
+  body{color: #000;}
+  h1{font-size: 1.5rem; margin-top: 40px;}
+  h2{font-size: 2rem;}
+  .importante-1{font-size: 1rem;}
+}
